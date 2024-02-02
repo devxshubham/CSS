@@ -1,0 +1,32 @@
+.circle{
+    background-color: lavender;
+    width: 200px;
+    height: 200px;
+    
+    transition: 1s;
+}
+.circle:hover{
+    background-color: pink;
+    border-radius: 50%;
+}
+section div{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 10px;
+    transition: margin-left 5s;
+    
+}
+section:hover div{
+    margin-left: 500px;
+}
+
+div:nth-of-type(1){
+    transition-timing-function : ease-in;
+}
+div:nth-of-type(2){
+    transition-timing-function: ease-out;
+}
+div:nth-of-type(3){
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

@@ -1,0 +1,46 @@
+body {
+    font-family: Alkatra, cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: teal;
+    font-size: 60px;
+    width: 90%;
+    height: 1500px;
+    margin: auto;
+    border: 5px solid black;
+    display : flex;
+    flex-direction : column;        /* row, row-reverse, column, column-reverse */
+    justify-content: space-evenly;  /* flex-end, center, space-between, space-around, space-evenly */
+    align-items: end;
+}
+#container div{
+    width: 200px;
+    height: 200px;
+}
+
+#container1 {
+    background-color: teal;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    /* row, row-reverse, column, column-reverse */
+    justify-content: space-evenly;
+    /* flex-end, center, space-between, space-around, space-evenly */
+
+    flex-wrap: wrap-reverse;          /* wrap , wrap-reverse */
+
+    align-items :end;
+}
+
+#container1 div {
+    width: 200px;
+    height: 200px;
+}

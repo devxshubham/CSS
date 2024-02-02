@@ -1,0 +1,49 @@
+body{
+    color : black;
+    background-color : #a8a7ba;
+}
+a{
+    text-decoration: none;
+
+}
+button{
+    color : #332E3C;
+    background-color: #C7B8EA;
+}
+ #login,#signup{                        /* id selector */
+    background-color: #ffc8dd;
+ }
+h3+button{                    /* this will select every button after h3 */
+    font-size: 50px;
+}
+footer > p{                         /* direct decsendant */
+    color: magenta;
+}
+input[type="text"]                   /* attribute selector*/
+{
+    background-color: aqua;
+}
+
+/* :hover */
+button:hover{
+    background-color: rgb(223, 0, 0);
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* :active */
+button:active{
+    background-color: #1e6091;
+}
+h3:active{
+    background-color: lawngreen;
+}
+
+/* :nth-of-type() */
+.post:nth-of-type(2n){
+    background-color: #6a6980;
+}
+::selection{
+    background-color: rgb(132, 255, 0);
+}
